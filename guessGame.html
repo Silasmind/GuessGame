@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Epilogue:wght@400;700;800&family=Montserrat:wght@600&family=Palanquin:wght@700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="guessGame.css">
+    <title>Jogo da adivinhação</title>
+</head>
+<body>
+
+        
+    <main>
+        <div class="screen1">
+        <header>
+            <h1>Jogo da adivinhação</h1>
+            <p>
+                Adivinhe um número entre 0 e 10:
+            </p>
+        </header>
+       <form>
+        <div class="input">
+          <input type="number" class="counter" id="guessedNumber">
+             <button id="btnTry">Tentar</button>
+         </div>
+         <p class="erro hide">tente novamente!</p>
+       </form>
+    </div>
+    <div class="screen2 hide">
+        <h2> você acertou em X tentativas!</h2>
+        <form> 
+            <button id="btnAgain"> Jogar novamente</button>
+        </form>
+       
+    </div>
+
+
+
+
+
+        
+
+
+
+</main>
+    <script src="./guessGame.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+
+
+:root{
+    font-size: 62.5%;
+    --default-font:'DM Sans', sans-serif;
+    --h1-font: 'Montserrat';
+
+}
+body{
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    display: grid;
+height: 100vh;
+   place-items: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.hide{
+    display: none;
+}
+
+main{
+    background: #FFFFFF;
+    width: 42.8rem;
+    height: 31.7rem;
+    border-radius: 6px;
+    margin-top: 20rem;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: animehead 500ms;
+
+
+}
+ header h1{
+font-family:var(--h1-font) ;
+font-size: 2.4rem;
+line-height: 2.9rem;
+margin-top: 4.8rem;
+color: #34355B;
+
+}
+header p{
+    font-family: var(--default-font);
+    color: rgba(52, 53, 91, 0.8);
+font-size:1.6rem;
+line-height: 2.4rem;
+
+
+}
+.input{
+    display: flex;
+    margin-top: 4.8rem;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.counter{
+
+    background-color: #DCE2E9;
+    width: 4.3rem;
+    height: 5.3rem;
+    border-radius: 4px 0px 0px 4px;
+    color: #34355B;
+
+}
+.contador:hover{
+    scale: 1.1;
+    cursor: pointer;
+    background-color: #bcc6d1;
+    
+}
+button{
+    width: 8.2rem;
+    height: 5.8rem;
+    padding: 1.6rem;
+    background: #7879F1;
+    border-radius: 0px 4px 4px 0px;
+    font-family: var(--default-font);
+    color:#FFFFFF ;
+    font-weight: 700;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    transition:  background .3s;
+ 
+}
+button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    background: #4b4bb5;
+}
+
+@keyframes animehead{
+
+    0%{
+        
+        scale: 1.2;
+        transform: translateY(-200px);
+        
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+    
+}
+
+.screen2 header{
+    padding-top: 4.8rem;
+}
+
+.screen2 h2{
+    font-family:var(--default-font) ;
+    font-weight: 400;
+font-size: 2.4rem;
+margin-top: 4.8rem;
+color: #34355B;
+
+
+}
+.screen2 button{
+ height: 5.3rem;
+ width: 16.6rem;
+ margin-top: 3.3rem;
+ transition:  background .3s;
+ 
+}
+.screen2 button:hover{
+cursor: pointer;
+scale: 1.1;
+background: #4b4bb5;
+}
+.erro{
+  color: red;
+  font-size: 1.6rem;
+}
